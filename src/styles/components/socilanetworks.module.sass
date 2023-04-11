@@ -1,0 +1,49 @@
+@import '../variables.module'
+@import '../mixins'
+
+#socialNetworks
+    @include center
+    gap: 1rem
+    margin: 1rem 0      
+
+.socialBtn
+    padding: .6rem
+    background: $bg-color-secondary
+    border-radius: $card-border-radius
+    color:#333
+    font-size: 1.8rem
+    margin-left: 1.5rem
+    margin-bottom: 1.8rem
+    @include center
+   
+    &:first-child        
+        margin-left: 0
+    &:hover
+        background: $gradient
+        > svg
+            color: $text-color 
+
+.linkedin
+    color: #0072b1
+
+.GitHub
+    color: #111
+
+.Instagram
+    color: #bc2a8d
+
+.Whatsapp
+    color: #12e035
+
+       
+            
+
+           
+
+        
+
+        
+
+
+
+

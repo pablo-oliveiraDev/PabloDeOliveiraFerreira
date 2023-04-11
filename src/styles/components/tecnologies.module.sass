@@ -1,0 +1,71 @@
+@import '../variables.module'
+@import '../mixins'
+
+.technologiesContainer
+    margin-bottom: 2rem
+
+    .technologiesGrid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        .technologiesCard
+            @include center
+            gap: 2rem
+            padding: 1rem
+            border: 1px solid #333
+            width: 45%
+            border-radius: $card-border-radius
+            margin-bottom: 1rem
+
+            h3
+                color: $text-color
+                margin-bottom: 1rem
+
+            svg
+                font-size: 6rem
+            &:hover
+                background: $bg-color-secondary
+    
+        .html
+            color: #E44D26
+
+        .css
+            color: #1572B6
+
+        .javaScript
+            color: #F0DB4F
+
+        .node
+            color: #83CD29
+
+        .react
+            color: #61DAFB
+
+        .sass
+            color: #e426cb
+
+        .mysql
+            color: #00618A
+
+        .sql
+            color: #E44D26
+
+        .typeScript
+            color: #454fd4
+
+        .firebase
+            color: #72787e
+
+        .mongoDb
+            color: #0a4912
+
+        .docker
+            color: #84c8f0
+
+        .postgres
+            color: #3961e4
+
+        .bootstrap
+            color: #580652
+            
