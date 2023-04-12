@@ -1,5 +1,5 @@
-import Sidebar from '@/components/sidebar';
-import MainContent from '@/components/mainContent';
+import Sidebar from '../components/Sidebar';
+import MainContent from '../components/MainContent';
 import styles from '../styles/app.module.sass'
 import Head from 'next/head';
 
