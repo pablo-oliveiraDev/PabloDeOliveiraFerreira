@@ -1,9 +1,10 @@
+import Link from 'next/link'
 import styles from '../styles/components/projects.module.sass'
 
 const ProjectsContainer = () => {
     return (
         <section className={styles.projectContaines}>
-            <h2>Projetos</h2>
+            <h2>Portifólio</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Quas, inventore ad! Ducimus odit
@@ -11,9 +12,9 @@ const ProjectsContainer = () => {
                 nesciunt cumque asperiores recusandae, quaerat id,
                 molestias ullam quas vero sapiente?
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="/projects" className={styles.btn}>
                 Ver projetos
-            </a>
+            </Link>
         </section>
     );
 };

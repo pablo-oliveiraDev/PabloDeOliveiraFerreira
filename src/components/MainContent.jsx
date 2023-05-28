@@ -1,14 +1,35 @@
-import AboutContainer from './AboutContainer'
-import ProjectsContainer from './ProjectsContainer'
-import TechnologiesContainer from './TecnologiesContainer'
-import styles from '../styles/components/maincontent.module.sass'
+import styles from '../styles/components/maincontent.module.sass';
+import Link from 'next/link';
+import * as IconsApp from 'react-icons/fa';
 
-const mainContent = () => {
+
+const btnApp = [
+  {
+    name: 'Home',
+    icon: <IconsApp.FaHome />,
+    url: '/',   
+  },
+  {
+    name: 'Tecnologias',
+    icon: <IconsApp.FaHome />,
+    url: '/technologies',   
+  },
+  {
+    name: 'Home',
+    icon: <IconsApp.FaHome />,
+    url: '/',   
+  },
+]
+
+const mainContent = ({ children }) => {
   return (
     <main id={styles.mainContent}>
-      <AboutContainer />
-      <TechnologiesContainer />
-      <ProjectsContainer />
+      {btnApp.map((btn) =>
+        <Link href={btn.url} className={styles.btn}>
+          {btn.icon}<span>{btn.name}</span>
+        </Link>
+      )}
+      {children}
     </main>
   )
 }
