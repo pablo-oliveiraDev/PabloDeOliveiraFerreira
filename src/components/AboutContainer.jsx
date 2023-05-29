@@ -1,11 +1,19 @@
-
+import photo from '../../public/image/perfilAzul.jpg';
+import Image from 'next/image'
 
 const AboutContainer = () => {
     return (
         <section className='aboutContainer'>
+
+            
             <h2>Sobre</h2>
+            <Image
+                src={photo}
+                alt='img perfil'
+
+            />
+                <h3 className='titleP'>Trajetória</h3>
             <p>
-                <h3>Trajetória</h3>
                 Desde sempre fui fascinado por tecnologia, nascido no interior do Rio de janeiro tive contato com windows 95 
                 na casa da minha madrinha que tinha um poder aquisitivo maior na época então fiz cursos na Faetec informatica 
                 básica e informática avançada e devido a minha cidade ser do interior tive que abandonar o que gostava e trabalhar
@@ -22,8 +30,8 @@ const AboutContainer = () => {
                da direção da microlins de Itaperuna-RJ , trabalhando fixo com manutenção de impressoras laser e jato de tinta
                durante 6 anos.   
             </p>
-            <p>
                 <h3>O encontro com Desenvolvimento</h3>
+            <p>
                 Entao tendo um forte incentivo de dois amigos passei a estudar c# e também um breve contato com pascal no Delphi,
                 porém não conseguindo vaga aqui na minha regiao desiti do desenvolvimento e em 2019 voltei determinado a mudar para 
                 desenvolvimento e começo a estudar javascript onde tive contato com react.js fazendo freelancer hj busco trabalho com

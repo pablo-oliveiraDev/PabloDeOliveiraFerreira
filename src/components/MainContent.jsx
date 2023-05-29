@@ -15,17 +15,17 @@ const btnApp = [
     url: '/technologies',   
   },
   {
-    name: 'Home',
+    name: 'Cerificados',
     icon: <IconsApp.FaHome />,
-    url: '/',   
+    url: '/certificates',    
   },
 ]
 
 const mainContent = ({ children }) => {
   return (
     <main id={styles.mainContent}>
-      {btnApp.map((btn) =>
-        <Link href={btn.url} className={styles.btn}>
+      {btnApp.map((btn,index) =>
+        <Link key={index} href={btn.url} className={styles.btn}>
           {btn.icon}<span>{btn.name}</span>
         </Link>
       )}

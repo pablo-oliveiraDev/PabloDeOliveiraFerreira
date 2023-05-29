@@ -7,6 +7,14 @@
     border-radius: $container-border-radius
     padding: 3rem
 
+    img
+        max-width: 30%
+        height: 25%
+        border-radius: 50%
+        margin-left: 35%
+        top: -5rem
+        margin-bottom: 4rem
+
     section
         display: flex
         flex-direction: column
@@ -23,6 +31,9 @@
         &:after
             @include gradient-border
 
+    h3
+        color: $text-color
+        
     p
         color: $text-color-secondary
         margin-bottom: 1rem
@@ -31,7 +42,7 @@
     .btn
         align-self: flex-start
         @include btn
-        gap: 1rem
+        gap: 2rem
         margin-left: 4rem
         margin-bottom: 80px
         &:first-child
