@@ -12,11 +12,7 @@ const socialNetworks = [
         icon: <SocialIcons.FaGithub className={styles.GitHub}
         />, link: 'https://github.com/pablo-oliveiraDev'
     },
-    {
-        name: "Instagram",
-        icon: <SocialIcons.FaInstagram className={styles.Instagram}
-        />, link: 'https://www.instagram.com/pablo_oliver.fer/'
-    },
+   
     {
         name: "Whatsapp",
         icon: <SocialIcons.FaWhatsapp className={styles.Whatsapp}

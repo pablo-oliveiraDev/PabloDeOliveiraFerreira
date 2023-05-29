@@ -11,13 +11,13 @@ const btnApp = [
   },
   {
     name: 'Tecnologias',
-    icon: <IconsApp.FaHome />,
+    icon: <IconsApp.FaLaptopCode />,
     url: '/technologies',   
   },
   {
-    name: 'Cerificados',
-    icon: <IconsApp.FaHome />,
-    url: '/certificates',    
+    name: 'Projetos / portifólio',
+    icon: <IconsApp.FaFileCode />,
+    url: '/projects',    
   },
 ]
 
