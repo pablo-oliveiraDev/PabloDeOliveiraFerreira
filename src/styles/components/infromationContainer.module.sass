@@ -11,6 +11,7 @@
     text-align: left
     width: 80%
     border-radius: $card-border-radius
+    word-wrap: break-word
 
     #infoCard
         @include center
@@ -29,6 +30,8 @@
         p
             color: $text-color
             font-weight: bold
+            word-break: break-all
+            
 
         svg
             background-color: $bg-color
@@ -46,4 +49,4 @@
         .pinIcon
             color: #c17ceb
 
-    
+    @media screen and (max-width:670px)

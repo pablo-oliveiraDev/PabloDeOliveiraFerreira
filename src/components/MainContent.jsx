@@ -15,7 +15,7 @@ const btnApp = [
     url: '/technologies',   
   },
   {
-    name: 'Projetos / portifólio',
+    name: 'Portifólio',
     icon: <IconsApp.FaFileCode />,
     url: '/projects',    
   },
@@ -24,16 +24,16 @@ const btnApp = [
 const mainContent = ({ children }) => {
   return (
     <main id={styles.mainContent}>
+      
       {btnApp.map((item,index) =>
         <Link key={index} href={item.url} className={styles.btn}>
           {item.icon}<span>{item.name}</span>
         </Link>
       )}
+      
       {children}
     </main>
   )
 }
 
 export default mainContent
-
-
