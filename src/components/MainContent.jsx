@@ -24,9 +24,9 @@ const btnApp = [
 const mainContent = ({ children }) => {
   return (
     <main id={styles.mainContent}>
-      {btnApp.map((btn,index) =>
-        <Link key={index} href={btn.url} className={styles.btn}>
-          {btn.icon}<span>{btn.name}</span>
+      {btnApp.map((item,index) =>
+        <Link key={index} href={item.url} className={styles.btn}>
+          {item.icon}<span>{item.name}</span>
         </Link>
       )}
       {children}

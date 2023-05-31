@@ -8,7 +8,8 @@ const projects=[
         repoUrl:'',
         preview:'',
         techUsed:'',
-        
+        status:'',
+
     }
 ]
 export default function Projects() {
