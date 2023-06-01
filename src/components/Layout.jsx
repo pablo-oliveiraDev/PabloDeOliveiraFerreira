@@ -5,19 +5,19 @@ import Head from 'next/head';
 
 import React from 'react'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
         <div id={styles.portfolio} >
             <Head>
-                <title>Pablo de Oliveira Ferreira</title>
+               
                 <meta name='description' content='Site com o conteudo e informações profissionais
-           de Pablo de Oliveira Ferreira
-            na função de desenvolvedor !' />
+                de Pablo de Oliveira Ferreira
+                 na função de desenvolvedor !' />
             </Head>
             <h1>Pablo de Oliveira Ferreira</h1>
             <Sidebar />
             {children}
-            
+
 
         </div>
     )

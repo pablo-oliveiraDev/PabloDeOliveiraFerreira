@@ -3,6 +3,7 @@ import { SiBootstrap, SiTypescript, SiVercel } from 'react-icons/si';
 import { TbBrandVercel } from 'react-icons/tb';
 import styles from '@/styles/components/tecnologies.module.sass';
 import MainContent from '@/components/MainContent';
+import Head from 'next/head';
 
 
 const technologies = [
@@ -63,7 +64,7 @@ const technologies = [
     {
         id: 'next',
         name: 'Next.Js',
-        icon: <TbBrandVercel className={styles.typeScript} />,
+        icon: <TbBrandVercel className={styles.next} />,
     description: 'é um framework usado com a biblioteca React.js,Ele atribui várias funcionalidades à React'
     },
     {
@@ -103,6 +104,9 @@ const tools = [
 const TecnologiesContainer = () => {
     return (
         <MainContent>
+            <Head>
+                <title>Tecnologias utilizadas</title>
+            </Head>
             <section className={styles.technologiesContainer} >
                 <h2>Tecnologias</h2>
                 <div className={styles.technologiesGrid} >
