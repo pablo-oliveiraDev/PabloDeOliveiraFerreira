@@ -5,7 +5,7 @@
     margin-bottom: 2rem
 
     .technologiesGrid
-        display: flex
+        display: flex      
         flex-wrap: wrap
         gap: 1.5rem
 
@@ -73,3 +73,21 @@
         .next
             color: #72787e
             
+@media (max-width: 970px)
+    .technologiesContainer
+        justify-content: center
+        align-items: center
+        
+        margin: 0
+        .technologiesGrid 
+            justify-content: center
+            align-items: center                     
+            flex-direction: column
+            
+            margin: 0           
+
+            .technologiesCard                
+                flex-wrap: wrap
+                flex-direction: column
+                width: 200px 
+        

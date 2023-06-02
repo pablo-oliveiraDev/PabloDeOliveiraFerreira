@@ -6,10 +6,12 @@ import Head from 'next/head';
 const projects=[
     {
         titulo:'',
+        description:'',
         repoUrl:'',
         preview:'',
         techUsed:'',
         status:'',
+        imgProjeto:'',
 
     }
 ]

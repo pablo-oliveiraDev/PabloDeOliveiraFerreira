@@ -60,7 +60,9 @@
         span
             margin-left: 1ch
 
-    @media (max-width: 970px) 
+@media (max-width: 970px) 
+    #mainContent
+        padding: 0.6rem
         .btn 
             margin-left: 0rem
             display: block 
@@ -71,6 +73,11 @@
             padding: 10px
             text-align: center
             transition: font-size 0.3s ease-in-out
+
+        h2
+            border-bottom: 1px solid $text-color-secondary
+            &:after                
+                display: none
 
            
         
