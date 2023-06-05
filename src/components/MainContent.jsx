@@ -34,15 +34,17 @@ const mainContent = ({ children }) => {
     const pageName = pathname.split('/').pop();
     return pageName;
   }
-  
+
   return (
     <main id={styles.mainContent}>
 
-      {btnApp.map((item, index) => 
-      <Link key={index} href={item.url} className={styles.btn}>
-          
-        {item.icon}<span >{item.name}</span>
-      </Link>
+      {btnApp.map((item, index) =>
+        <button className={styles.btn}>
+          <Link key={index} href={item.url}>
+
+            {item.icon}<span >{item.name}</span>
+          </Link>
+        </button>
       )}
 
       {children}
