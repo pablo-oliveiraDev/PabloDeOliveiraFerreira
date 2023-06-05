@@ -19,7 +19,7 @@ function Sidebar() {
             <p className={styles.title}>Desenvolvedor fullstack</p>
             <SocialNetWorks />
             <InformationContainer />
-            <a href='https://mega.nz/file/IBU2DTSS#-kazYVGcK9Oy-mFBjiIxm9DKMRpXfUfl1wLcybrnie4'
+            <a href='https://mega.nz/file/1UVHBaJZ#f8B2nhaYPEx_ISMtI-yWFLBoI8ORfxic0SejHa2S6zc'
             target='_blank' 
             rel='noopener noreferrer'
             className={styles.btn}
