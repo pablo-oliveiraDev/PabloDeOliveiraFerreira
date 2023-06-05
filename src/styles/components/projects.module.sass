@@ -1,6 +1,91 @@
 @import '../variables.module'
 @import '../mixins'
 
-.btn
-    align-self: flex-start
-    @include btn
+
+           
+.projectsContainer
+    margin-bottom: 2rem
+    
+    .projectsGrid
+        display: flex      
+        flex-wrap: wrap
+        gap: 1.5rem
+        flex-direction: column
+       
+            
+
+        .projectsCard
+            display: flex
+            flex-direction: colum
+            gap: 2rem
+            padding: 1px
+            border: 1px solid #333
+            width: 100%
+            border-radius: $card-border-radius
+            margin-bottom: 1rem
+            
+            
+           
+            h3
+                color: $text-color
+                margin-bottom: 1rem
+                margin-top: 1ch
+            span
+                display: flex
+                flex-direction: row
+                align-items: baseline
+                color: $text-color 
+                word-break: nowarp
+
+                p
+                    margin-left: 1ch
+                    word-break: break-all
+                
+
+            svg
+                font-size: 6rem
+            &:hover
+                background: $bg-color-secondary
+
+            .btnContainer
+                flex-direction: row
+                
+                .btnPreview
+                    @include btn
+                    margin-left: 1rem
+                    a
+                        color: $text-color
+            
+        #imgProject
+            border-radius: inherit
+            max-width: 100%
+            margin: 0
+            width: 50%
+            height: 300px
+
+@media (max-width: 600px)
+    .projectsContainer
+        display: flex  
+        flex-direction: column
+        justify-content: center
+        align-items: center  
+
+        .projectsGrid  
+                
+            
+            .projectsCard
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-wrap: wrap
+                flex-direction: column
+
+                .btnContainer 
+                    display: flex                   
+                    flex-direction: row
+           
+
+               
+
+       
+            
