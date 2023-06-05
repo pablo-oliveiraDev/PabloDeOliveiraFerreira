@@ -16,7 +16,7 @@ const btnApp = [
     url: '/technologies',
   },
   {
-    name: 'Portifólio',
+    name: 'Portfólio',
     icon: <IconsApp.FaFileCode />,
     url: '/projects',
   },

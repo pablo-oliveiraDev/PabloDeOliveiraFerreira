@@ -94,9 +94,9 @@ export default function Projects() {
     return (
         <MainContent>
             <Head>
-                <title>Portifólio / Projetos</title>
+                <title>Portfólio / Projetos</title>
             </Head>
-            <h2>Portifólio</h2>
+            <h2>Portfólio</h2>
             <section className={styles.projectsContainer} >
 
                 <div className={styles.projectsGrid} >
