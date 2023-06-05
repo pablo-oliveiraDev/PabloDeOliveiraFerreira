@@ -47,18 +47,23 @@
         align-self: flex-start
         @include btn
         gap: 2rem
-        margin-left: 4rem
-        margin-bottom: 80px       
-        transition: font-size 0.3s ease-in-out
-        &:hover
-            font-size: calc(1vh + 0.8rem)
+        margin-left: 100px
+        border: none  
+        scale: 1.2 
+        
+       
 
        
         &:first-child
             margin-left: 0rem
-            
+        svg
+            color: $text-color   
         span
             margin-left: 1ch
+            color: $text-color
+        &:hover 
+            span
+                border-bottom: 1px solid $text-color   
 
 @media (max-width: 970px) 
     #mainContent
