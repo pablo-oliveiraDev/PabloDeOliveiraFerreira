@@ -25,23 +25,16 @@ const btnApp = [
 
 
 const mainContent = ({ children }) => {
-  const pageName = '';
-  const router = useRouter();
-  const currentUrl = router.asPath;
-  function getPageName(link) {
-    const url = new URL(link);
-    const pathname = url.pathname;
-    const pageName = pathname.split('/').pop();
-    return pageName;
-  }
+  const { asPath } = useRouter();
+
 
   return (
     <main id={styles.mainContent}>
 
       {btnApp.map((item, index) =>
         <button className={styles.btn}>
-          <Link key={index} href={item.url}>
-
+          <Link className={asPath === item.url && styles.active} key={index} href={item.url}>
+            {console.log(asPath)}
             {item.icon}<span >{item.name}</span>
           </Link>
         </button>
