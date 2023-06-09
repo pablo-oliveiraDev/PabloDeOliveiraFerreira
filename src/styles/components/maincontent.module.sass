@@ -50,10 +50,7 @@
         margin-left: 100px
         border: none  
         scale: 1.2 
-        
-       
-
-       
+        transition: 0.3s ease-in-out
         
         svg
             color: $text-color   
@@ -63,7 +60,16 @@
        
         &:hover 
             span
-                border-bottom: 1px solid $text-color   
+                border-bottom: 1px solid $text-color  
+
+        .active
+            svg 
+                color: $active-Color
+            span
+                border-bottom: 1px solid $active-Color
+                color: $active-Color
+                font-weight: bold
+
 
 @media (max-width: 970px) 
     #mainContent
