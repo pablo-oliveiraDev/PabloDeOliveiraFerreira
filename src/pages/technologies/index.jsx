@@ -35,7 +35,7 @@ const technologies = [
         id: 'react',
         name: 'React.Js',
         icon: <techIcons.DiReact className={styles.react} />,
-    description: 'é uma das bibliotecas de JavaScript mais populares para desenvolvimento de aplicativos web ou para dispositivos móveis'
+        description: 'é uma das bibliotecas de JavaScript mais populares para desenvolvimento de aplicativos web ou para dispositivos móveis'
     },
     {
         id: 'sass',
@@ -47,31 +47,31 @@ const technologies = [
         id: 'mysql',
         name: 'MySQL',
         icon: <techIcons.DiMysql className={styles.mysql} />,
-    description: 'um Sistema de gerenciamento de banco de dados, que usa a linguagem SQL como interface'
+        description: 'um Sistema de gerenciamento de banco de dados, que usa a linguagem SQL como interface'
     },
     {
         id: 'sql',
         name: 'SQL',
         icon: <techIcons.DiSqllite className={styles.sql} />,
-    description: '(Struct Query Language) é uma linguagem padrão para a manipulação de dados dentro de um SGBD desenvolvida pela IBM'
+        description: '(Struct Query Language) é uma linguagem padrão para a manipulação de dados dentro de um SGBD desenvolvida pela IBM'
     },
     {
         id: 'typeScript',
         name: 'TypeScript',
         icon: <SiTypescript className={styles.typeScript} />,
-    description: 'uma linguagem de programação de código aberto desenvolvida pela Microsoft que é uma extensão do JavaScript'
+        description: 'uma linguagem de programação de código aberto desenvolvida pela Microsoft que é uma extensão do JavaScript'
     },
     {
         id: 'next',
         name: 'Next.Js',
         icon: <TbBrandVercel className={styles.next} />,
-    description: 'é um framework usado com a biblioteca React.js,Ele atribui várias funcionalidades à React'
+        description: 'é um framework usado com a biblioteca React.js,Ele atribui várias funcionalidades à React'
     },
     {
         id: 'bootstrap',
         name: 'Bootstrap',
         icon: <SiBootstrap className={styles.bootstrap} />,
-    description: 'é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.'
+        description: 'é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.'
     },
 ];
 
@@ -80,23 +80,23 @@ const tools = [
         id: 'firebase',
         name: 'Firebase',
         icon: <techIcons.DiFirebase className={styles.firebase} />,
-   description: 'é uma plataforma digital da Google utilizada para facilitar o desenvolvimento de aplicativos web ou mobile de maneira ágil e simples.'
+        description: 'é uma plataforma digital da Google utilizada para facilitar o desenvolvimento de aplicativos web ou mobile de maneira ágil e simples.'
     },
     {
         id: 'mongoDb',
         name: 'MongoDb',
         icon: <techIcons.DiMongodb className={styles.mongoDb} />,
-    description: ' um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL.'
+        description: ' um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL.'
     },
     {
         id: 'postgres',
         name: 'Postgres',
         icon: <techIcons.DiPostgresql className={styles.postgres} />,
-    description: 'consiste em um processo de servidor que lê e grava os arquivos de banco de dados reais, utilizando o Psql e sql para consultas.'
+        description: 'consiste em um processo de servidor que lê e grava os arquivos de banco de dados reais, utilizando o Psql e sql para consultas.'
     },
     {
         id: 'docker',
-        name: 'Postgres',
+        name: 'Docker',
         icon: <techIcons.DiDocker className={styles.docker} />,
         description: 'facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação em containers.'
     },
