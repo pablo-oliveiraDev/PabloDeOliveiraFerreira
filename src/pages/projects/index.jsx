@@ -1,15 +1,30 @@
 import MainContent from '@/components/MainContent';
+import Caroussel from '@/components/Caroussel';
 import Link from 'next/link';
 import styles from '@/styles/components/projects.module.sass';
+import Image from 'next/image';
+import Head from 'next/head';
+//images
 import imgsharenergy2023 from '@/assets/image/photodProjects/appsharenergy2023.png';
 import imgchamados from '@/assets/image/photodProjects/projetoChamados.png';
 import imgnewmarkwting from '@/assets/image/photodProjects/projetoNewMarketing.png';
 import imgxpto from '@/assets/image/photodProjects/projetoXpto.png';
+import imgxpto2 from '@/assets/image/photodProjects/projet-Xpto2.jpg';
 import imgCo3d from '@/assets/image/photodProjects/testeLivros.png';
+import co3d2 from '@/assets/image/photodProjects/co3d-2.jpg';
+import co3d3 from '@/assets/image/photodProjects/co3d-3.jpg';
+import co3d4 from '@/assets/image/photodProjects/co3d-4.jpg';
+import co3d5 from '@/assets/image/photodProjects/co3d-5.jpg';
 import imgventura from '@/assets/image/photodProjects/venturaPage.jpg';
+import imgventura2 from '@/assets/image/photodProjects/venturaPage2.jpg';
+import imgventura3 from '@/assets/image/photodProjects/venturaPage3.jpg';
+import imgventura4 from '@/assets/image/photodProjects/venturaPage4.jpg';
+import imgventura5 from '@/assets/image/photodProjects/venturaPage5.png';
 import imgwcl from '@/assets/image/photodProjects/wclPage.png';
-import Image from 'next/image';
-import Head from 'next/head';
+import imgwcl2 from '@/assets/image/photodProjects/wcl-2.jpg';
+import imgwcl3 from '@/assets/image/photodProjects/wcl-3.jpg';
+import imgwcl4 from '@/assets/image/photodProjects/wcl-4.jpg';
+
 
 const projects =
     [
@@ -21,7 +36,9 @@ const projects =
             preview: 'https://app-sharenergy2023.netlify.app/',
             techUsed: 'NodeJS, Typescript, MongoDB, Javascript, Api Rest, ReactJS, React hooks, Context, ... ',
             status: 'Terminado',
-            imgProject: <Image src={imgsharenergy2023} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgsharenergy2023} alt='img port' id={styles.imgProject} priority />
+            ]
 
         },
         {
@@ -32,7 +49,9 @@ const projects =
             preview: 'https://app-chamados.netlify.app/',
             techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context',
             status: 'Terminado',
-            imgProject: <Image src={imgchamados} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgchamados} alt='img port' id={styles.imgProject} priority />,
+            ]
 
         },
         {
@@ -43,7 +62,9 @@ const projects =
             preview: 'https://app-newmarketing.netlify.app/',
             techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context',
             status: 'Terminado',
-            imgProject: <Image src={imgnewmarkwting} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgnewmarkwting} alt='img port' id={styles.imgProject} priority />,
+            ]
         },
         {
             name: 'Landing page Xpto',
@@ -53,7 +74,10 @@ const projects =
             preview: 'https://pablo-oliveiradev.github.io/projeto_landing-page/',
             techUsed: 'Javscript, CSS',
             status: 'Terminado',
-            imgProject: <Image src={imgxpto} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgxpto} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgxpto2} alt='img port' id={styles.imgProject} priority />,
+            ]
         },
         {
             name: 'Landing page WCL',
@@ -63,7 +87,12 @@ const projects =
             preview: 'https://pablo-oliveiradev.github.io/wcl-fusion-page/',
             techUsed: 'Javscript, CSS',
             status: 'Terminado',
-            imgProject: <Image src={imgwcl} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgwcl} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgwcl2} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgwcl3} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgwcl4} alt='img port' id={styles.imgProject} priority />,
+            ]
         },
         {
             name: 'Teste Co3d',
@@ -73,7 +102,13 @@ const projects =
             preview: 'https://app-co3d.netlify.app/',
             techUsed: 'Javascript, NodeJS, MongoDB, Api Rest, ReactJS, React hooks, Context',
             status: 'Terminado',
-            imgProject: <Image src={imgCo3d} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgCo3d} alt='img port' id={styles.imgProject} priority />,
+                <Image src={co3d2} alt='img port' id={styles.imgProject} priority />,
+                <Image src={co3d3} alt='img port' id={styles.imgProject} priority />,
+                <Image src={co3d4} alt='img port' id={styles.imgProject} priority />,
+                <Image src={co3d5} alt='img port' id={styles.imgProject} priority />,
+            ]
         },
         {
             name: 'App Ventura',
@@ -83,12 +118,15 @@ const projects =
             preview: 'https://venturapage.netlify.app/',
             techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context,Styled-Compnents',
             status: 'Em construção',
-            imgProject: <Image src={imgventura} alt='img port' id={styles.imgProject} priority />,
+            imgProject: [
+                <Image src={imgventura} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgventura2} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgventura3} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgventura4} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgventura5} alt='img port' id={styles.imgProject} priority />,
+            ]
         },
-
-
-    ]
-
+    ];
 export default function Projects() {
 
     return (
@@ -104,12 +142,12 @@ export default function Projects() {
                         <div className={styles.projectsCard}
                             key={index}
                         >
-                            {item.imgProject}
+                            <Caroussel images={item.imgProject} />
                             <div className={styles.projectsInfo}>
                                 <h3>{item.name}</h3>
                                 <p>{item.description}</p>
-                                <span>Status :<p>{item.status}</p></span>
-                                <span>Tecnologias usadas :<p>{item.techUsed}</p></span>
+                                <span>Status <p>{item.status}</p></span>
+                                <span>Tecnologias usadas <p>{item.techUsed}</p></span>
 
                                 <div className={styles.btnContainer}>
                                     <button className={styles.btnPreview}
@@ -149,6 +187,3 @@ export default function Projects() {
         </MainContent>
     )
 }
-
-
-
