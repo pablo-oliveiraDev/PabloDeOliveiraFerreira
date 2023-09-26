@@ -32,8 +32,8 @@ const mainContent = ({ children }) => {
     <main id={styles.mainContent}>
 
       {btnApp.map((item, index) =>
-        <button className={styles.btn}>
-          <Link className={asPath === item.url && styles.active} key={index} href={item.url}>            
+        <button className={styles.btn} key={index}>
+          <Link className={asPath === item.url ? styles.active : ""}  href={item.url}>            
             {item.icon}<span >{item.name}</span>
           </Link>
         </button>
