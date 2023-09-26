@@ -9,7 +9,7 @@ import imgsharenergy2023 from '@/assets/image/photodProjects/appsharenergy2023.p
 import imgchamados from '@/assets/image/photodProjects/projetoChamados.png';
 import imgnewmarkwting from '@/assets/image/photodProjects/projetoNewMarketing.png';
 import imgxpto from '@/assets/image/photodProjects/projetoXpto.png';
-import imgxpto2 from '@/assets/image/photodProjects/projet-Xpto2.jpg';
+import imgxpto2 from '@/assets/image/photodProjects/projet-xpto2.jpg';
 import imgCo3d from '@/assets/image/photodProjects/testeLivros.png';
 import co3d2 from '@/assets/image/photodProjects/co3d-2.jpg';
 import co3d3 from '@/assets/image/photodProjects/co3d-3.jpg';
