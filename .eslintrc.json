@@ -1,6 +1,4 @@
 {
-  "extends": ["next/babel", "next/core-web-vitals", "turbo"],
-  "babelOptions": {
-    "presets": ["require.resolve('next/babel')"]
-  }
+  "extends": ["next/babel", "next/core-web-vitals", "turbo"]
+ 
 }
