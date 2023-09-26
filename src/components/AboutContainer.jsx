@@ -10,7 +10,7 @@ const AboutContainer = () => {
             <Image
                 src={photo}
                 alt='img perfil'
-
+                priority={true}
             />
                 <h3 className='titleP'>Trajetória</h3>
             <p>

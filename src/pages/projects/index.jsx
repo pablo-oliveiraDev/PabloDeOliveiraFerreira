@@ -37,7 +37,7 @@ const projects =
             techUsed: 'NodeJS, Typescript, MongoDB, Javascript, Api Rest, ReactJS, React hooks, Context, ... ',
             status: 'Terminado',
             imgProject: [
-                <Image src={imgsharenergy2023} alt='img port' id={styles.imgProject} priority />
+                <Image src={imgsharenergy2023} alt='img port' id={styles.imgProject} priority={true} />
             ]
 
         },
@@ -50,7 +50,7 @@ const projects =
             techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context',
             status: 'Terminado',
             imgProject: [
-                <Image src={imgchamados} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgchamados} alt='img port' id={styles.imgProject} priority={true} />,
             ]
 
         },
@@ -63,7 +63,7 @@ const projects =
             techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context',
             status: 'Terminado',
             imgProject: [
-                <Image src={imgnewmarkwting} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgnewmarkwting} alt='img port' id={styles.imgProject} priority={true} />,
             ]
         },
         {
@@ -75,8 +75,8 @@ const projects =
             techUsed: 'Javscript, CSS',
             status: 'Terminado',
             imgProject: [
-                <Image src={imgxpto} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgxpto2} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgxpto} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgxpto2} alt='img port' id={styles.imgProject} priority={true} />,
             ]
         },
         {
@@ -88,10 +88,10 @@ const projects =
             techUsed: 'Javscript, CSS',
             status: 'Terminado',
             imgProject: [
-                <Image src={imgwcl} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgwcl2} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgwcl3} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgwcl4} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgwcl} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgwcl2} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgwcl3} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgwcl4} alt='img port' id={styles.imgProject} priority={true} />,
             ]
         },
         {
@@ -103,11 +103,11 @@ const projects =
             techUsed: 'Javascript, NodeJS, MongoDB, Api Rest, ReactJS, React hooks, Context',
             status: 'Terminado',
             imgProject: [
-                <Image src={imgCo3d} alt='img port' id={styles.imgProject} priority />,
-                <Image src={co3d2} alt='img port' id={styles.imgProject} priority />,
-                <Image src={co3d3} alt='img port' id={styles.imgProject} priority />,
-                <Image src={co3d4} alt='img port' id={styles.imgProject} priority />,
-                <Image src={co3d5} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgCo3d} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={co3d2} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={co3d3} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={co3d4} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={co3d5} alt='img port' id={styles.imgProject} priority={true} />,
             ]
         },
         {
@@ -119,11 +119,11 @@ const projects =
             techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context,Styled-Compnents',
             status: 'Em construção',
             imgProject: [
-                <Image src={imgventura} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgventura2} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgventura3} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgventura4} alt='img port' id={styles.imgProject} priority />,
-                <Image src={imgventura5} alt='img port' id={styles.imgProject} priority />,
+                <Image src={imgventura} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgventura2} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgventura3} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgventura4} alt='img port' id={styles.imgProject} priority={true} />,
+                <Image src={imgventura5} alt='img port' id={styles.imgProject} priority={true} />,
             ]
         },
     ];
