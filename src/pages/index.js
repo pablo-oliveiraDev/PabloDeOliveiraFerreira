@@ -1,6 +1,6 @@
 import MainContent from '../components/MainContent';
 import AboutContainer from '../components/AboutContainer';
-import ProjectsContainer from '@/components/ProjectsContainer';
+
 import Head from 'next/head';
 
 

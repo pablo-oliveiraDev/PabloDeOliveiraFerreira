@@ -3,7 +3,7 @@ import styles from '../styles/components/socilanetworks.module.sass'
 
 const socialNetworks = [
     {
-        name: "linkedin",
+        name: "LinkedIn",
         icon: <SocialIcons.FaLinkedinIn className={styles.linkedin}
         />, link: 'https://www.linkedin.com/in/pabloliver-dev/'
     },
@@ -14,7 +14,7 @@ const socialNetworks = [
     },
    
     {
-        name: "Whatsapp",
+        name: "WhatsApp",
         icon: <SocialIcons.FaWhatsapp className={styles.Whatsapp}
         />, link: 'https://wa.link/qefe4u'
     }
@@ -31,8 +31,7 @@ const SocialNetWorks = () => {
                 >
                     {network.icon}
                 </a>
-            ))}
-
+            ))};
         </section>
     )
 }

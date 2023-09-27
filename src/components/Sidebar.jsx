@@ -3,12 +3,13 @@ import Image from 'next/image';
 import SocialNetWorks from './SocialNetWorks';
 import InformationContainer from './InformationContainer';
 import styles from '../styles/components/sidebar.module.sass';
+import Link from 'next/link';
 
 
 
 function Sidebar() {
-   
-   
+
+
     return (
         <aside id={styles.sidebar}>
             <Image
@@ -19,14 +20,14 @@ function Sidebar() {
             <p className={styles.title}>Desenvolvedor fullstack</p>
             <SocialNetWorks />
             <InformationContainer />
-            <a href='https://mega.nz/file/1UVHBaJZ#f8B2nhaYPEx_ISMtI-yWFLBoI8ORfxic0SejHa2S6zc'
-            target='_blank' 
-            rel='noopener noreferrer'
-            className={styles.btn}
-            >
+            <Link href='/curriculo/curriculo.pdf'
+                target='_blank'
+               
+                className={styles.btn}
+                passHref>
                 Download Currículo
-            </a>
-            
+            </Link>
+
         </aside>
     )
 }

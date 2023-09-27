@@ -30,7 +30,7 @@ const projects =
     [
         {
             name: 'App-Sharenergy2023',
-            description: 'App criado para um teste onde a era necessario conectar e exibir dados de várias apis diferentes com cadastro onde só cadastrados podem acessar o conteudo',
+            description: 'App criado para um teste onde a era necessário conectar e exibir dados de várias apis diferentes com cadastro onde só cadastrados podem acessar o conteúdo',
             repoFrontUrl: 'https://github.com/pablo-oliveiraDev/FrSharenergy2023',
             repoBacktUrl: 'https://github.com/pablo-oliveiraDev/api-sharenergy2023',
             preview: 'https://app-sharenergy2023.netlify.app/',
@@ -43,7 +43,7 @@ const projects =
         },
         {
             name: 'App Chamados',
-            description: 'App criado para me ajudar no meus chamados para manutenção de computadores e impressoras, com cadastro e login de usuarios',
+            description: 'App criado para me ajudar no meus chamados para manutenção de computadores e impressoras, com cadastro e login de usuários .',
             repoFrontUrl: 'https://github.com/pablo-oliveiraDev/sistema-chamados',
             repoBacktUrl: '',
             preview: 'https://app-chamados.netlify.app/',
@@ -72,7 +72,7 @@ const projects =
             repoFrontUrl: 'https://github.com/pablo-oliveiraDev/projeto_landing-page',
             repoBacktUrl: '',
             preview: 'https://pablo-oliveiradev.github.io/projeto_landing-page/',
-            techUsed: 'Javscript, CSS',
+            techUsed: 'Javascript, CSS',
             status: 'Terminado',
             imgProject: [
                 <Image src={imgxpto} alt='img port' id={styles.imgProject} priority={true} />,
@@ -85,7 +85,7 @@ const projects =
             repoFrontUrl: 'https://github.com/pablo-oliveiraDev/wcl-fusion-page/tree/master',
             repoBacktUrl: '',
             preview: 'https://pablo-oliveiradev.github.io/wcl-fusion-page/',
-            techUsed: 'Javscript, CSS',
+            techUsed: 'Javascript, CSS',
             status: 'Terminado',
             imgProject: [
                 <Image src={imgwcl} alt='img port' id={styles.imgProject} priority={true} />,
@@ -96,7 +96,7 @@ const projects =
         },
         {
             name: 'Teste Co3d',
-            description: 'Um teste apresentado para uma empresa onde o intuito era cadastrar os livros e mostrar os cadastrados com pesquisa e paginação de itens e também com favoritos',
+            description: 'Um teste apresentado para uma empresa onde o intuito era cadastrar os livros e mostrar os cadastrados com pesquisa e paginação de itens e também com favoritos, consumindo uma API rest com mongoDB,node ',
             repoFrontUrl: 'https://github.com/pablo-oliveiraDev/testeFrontCo3d',
             repoBacktUrl: 'https://github.com/pablo-oliveiraDev/testeApiBackEndCo3d',
             preview: 'https://app-co3d.netlify.app/',
@@ -112,11 +112,11 @@ const projects =
         },
         {
             name: 'App Ventura',
-            description: 'Projeto Criado para um cliente de refrigerção para ajudar no atendimento online com cadastro e agendamento de visita apos confirmação do proprietario',
+            description: 'Projeto Criado para um cliente de refrigeração para ajudar no atendimento online com cadastro e agendamento de visita apos confirmação do proprietário, consumindo uma API em node.js',
             repoFrontUrl: 'https://github.com/pablo-oliveiraDev/venturaPage',
             repoBacktUrl: 'https://github.com/pablo-oliveiraDev/api-node-refriventura',
             preview: 'https://venturapage.netlify.app/',
-            techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context,Styled-Compnents',
+            techUsed: 'Javascript, NodeJS, Firebase, Api Rest, ReactJS, React hooks, Context,Styled-Components',
             status: 'Em construção',
             imgProject: [
                 <Image src={imgventura} alt='img port' id={styles.imgProject} priority={true} />,
@@ -164,7 +164,7 @@ export default function Projects() {
                                         <Link href={item.repoFrontUrl || ''}
                                             target='_blank'
 
-                                        >Repositorio <br />Front</Link>
+                                        >Repositório <br />Front</Link>
                                     </button>
                                     {
                                         item.repoBacktUrl !== '' && <button className={styles.btnPreview}
@@ -173,7 +173,7 @@ export default function Projects() {
                                             <Link href={item.repoBacktUrl || ''}
                                                 target='_blank'
 
-                                            >Repositorio <br />back</Link>
+                                            >Repositório <br />back</Link>
                                         </button>
                                     }
                                 </div>
