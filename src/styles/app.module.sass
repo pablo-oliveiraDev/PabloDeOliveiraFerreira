@@ -16,6 +16,104 @@
         background-position: center
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+        &:hover
+            background-image: #000
+
+   
+        
+
+    .bolhas
+        position: absolute
+        display: flex
+
+        span
+            width: 30px
+            height: 30px
+            background: #e5ff00
+            z-index: -1
+            margin: 0 19px
+            border-radius: 50%
+            box-shadow: 0 0 0 10px #e5ff0044,
+            box-shadow: 0 0 50px #e5ff00 ,
+            box-shadow: 0 0 100px #e5ff00
+
+            &:nth-of-type(even)
+                background: #2dc3ff
+                box-shadow: 0 0 0 10px #2dc3ff,
+                box-shadow: 0 0 50px #2dc3ff ,
+                box-shadow: 0 0 100px #2dc3ff
+
+        .effect1
+            animation: animar calc( 200s/ 35 ) alternate infinite
+        .effect2
+            animation: animar calc( 200s/ 17 ) alternate infinite
+        .effect3
+            animation: animar calc( 200s/ 10 ) alternate infinite
+        .effect4
+            animation: animar calc( 200s/ 15 ) alternate infinite
+        .effect5
+            animation: animar calc( 200s/ 32 ) alternate infinite
+        .effect6
+            animation: animar calc( 200s/ 30 ) alternate infinite
+        .effect7
+            animation: animar calc( 200s/ 11 ) alternate infinite
+        .effect8
+            animation: animar calc( 200s/ 17 ) alternate infinite
+        .effect9
+            animation: animar calc( 200s/ 10 ) alternate infinite
+        .effect10
+            animation: animar calc( 200s/ 18 ) alternate infinite
+        .effect11
+            animation: animar calc( 200s/ 32 ) alternate infinite
+        .effect12
+            animation: animar calc( 200s/ 12 ) alternate infinite
+        .effect13
+            animation: animar calc( 200s/ 28 ) alternate infinite
+        .effect14
+            animation: animar calc( 200s/ 13 ) alternate infinite
+        .effect15
+            animation: animar calc( 200s/ 27 ) alternate infinite
+        .effect16
+            animation: animar calc( 200s/ 25 ) alternate infinite
+        .effect17
+            animation: animar calc( 200s/ 22 ) alternate infinite
+        .effect18
+            animation: animar calc( 200s/ 18 ) alternate infinite
+        .effect19
+            animation: animar calc( 200s/ 25 ) alternate infinite
+        .effect20
+            animation: animar calc( 200s/ 37 ) alternate infinite
+        .effect21
+            animation: animar calc( 200s/ 11 ) alternate infinite
+        .effect22
+            animation: animar calc( 200s/ 19 ) alternate infinite
+        .effect23
+            animation: animar calc( 200s/ 29 ) alternate infinite
+        .effect24
+            animation: animar calc( 200s/ 16 ) alternate infinite
+
+@keyframes animar
+    0%
+        transform: translateY(100vh) scale(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-10vh) scale(0.9)
+        opacity: 0
+
+@keyframes cima
+    0%
+        transform: translateY(0vh)
+
+    100%
+        transform: translateY(-10vh)
+        display: none
+@keyframes baixo
+    0%
+        transform: translateY(-10vh)
+
+    100%
+        transform: translateY(0vh)
 
 .btnHome
     @include btn

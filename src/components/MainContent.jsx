@@ -32,11 +32,11 @@ const mainContent = ({ children }) => {
     <main id={styles.mainContent}>
 
       {btnApp.map((item, index) =>
-        <button className={styles.btn} key={index}>
-          <Link className={asPath === item.url ? styles.active : ""}  href={item.url}>            
+        <Link className={asPath === item.url ? styles.active : ""} href={item.url} key={index}>
+          <button className={asPath === item.url ? styles.active : styles.btn} >
             {item.icon}<span >{item.name}</span>
-          </Link>
-        </button>
+          </button>
+        </Link>
       )}
 
       {children}
