@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AboutContainer = () => {
     return (
-        <section className='aboutContainer'>
+        <section className='aboutContainer' >
 
             
             <h2>Sobre</h2>
