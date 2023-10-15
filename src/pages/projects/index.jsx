@@ -24,6 +24,8 @@ import imgwcl from '@/assets/image/photodProjects/wclPage.png';
 import imgwcl2 from '@/assets/image/photodProjects/wcl-2.jpg';
 import imgwcl3 from '@/assets/image/photodProjects/wcl-3.jpg';
 import imgwcl4 from '@/assets/image/photodProjects/wcl-4.jpg';
+import blackJack1 from '@/assets/image/photodProjects/blackJack-lose.jpg'
+import blackJack2 from '@/assets/image/photodProjects/blackJack-start.jpg'
 
 
 const projects =
@@ -124,6 +126,19 @@ const projects =
                 <Image src={imgventura3} alt='img port' id={styles.imgProject} priority={true} />,
                 <Image src={imgventura4} alt='img port' id={styles.imgProject} priority={true} />,
                 <Image src={imgventura5} alt='img port' id={styles.imgProject} priority={true} />,
+            ]
+        },
+        {
+            name: 'Black jack',
+            description: 'Projeto criado para meu portfolio mudando o foco para um web game baseado em blackjack, também para não ficar parado e produzir algo diferente para o meu portfolio ',
+            repoFrontUrl: '',
+            repoBacktUrl: '',
+            preview: '',
+            techUsed: 'Javascript, NodeJS, Firebase, ReactJS, React hooks, Context,Sass module, NextJS',
+            status: 'Em construção',
+            imgProject: [
+                <Image src={blackJack1} alt='blackJack-lose' id={styles.imgProject} priority={true} />,
+                <Image src={blackJack2} alt='img port' id={styles.imgProject} priority={true} />                
             ]
         },
     ];
