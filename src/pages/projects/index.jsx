@@ -24,7 +24,7 @@ import imgwcl from '@/assets/image/photodProjects/wclPage.png';
 import imgwcl2 from '@/assets/image/photodProjects/wcl-2.jpg';
 import imgwcl3 from '@/assets/image/photodProjects/wcl-3.jpg';
 import imgwcl4 from '@/assets/image/photodProjects/wcl-4.jpg';
-import blackJack1 from '@/assets/image/photodProjects/blackJack-lose.jpg'
+import blackJack1 from '@/assets/image/photodProjects/blackJack-Lose.jpg'
 import blackJack2 from '@/assets/image/photodProjects/blackJack-start.jpg'
 
 
@@ -137,7 +137,7 @@ const projects =
             techUsed: 'Javascript, NodeJS, Firebase, ReactJS, React hooks, Context,Sass module, NextJS',
             status: 'Em construção',
             imgProject: [
-                <Image src={blackJack1} alt='blackJack-lose' id={styles.imgProject} priority={true} />,
+                <Image src={blackJack1} alt='img port' id={styles.imgProject} priority={true} />,
                 <Image src={blackJack2} alt='img port' id={styles.imgProject} priority={true} />                
             ]
         },
