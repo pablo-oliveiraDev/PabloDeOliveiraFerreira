@@ -20,7 +20,7 @@ function Sidebar() {
             <p className={styles.title}>Desenvolvedor fullstack</p>
             <SocialNetWorks />
             <InformationContainer />
-            <Link href='/curriculo/curriculo2024.pdf'
+            <Link href='/curriculo/curriculo.pdf'
                 target='_blank'
                
                 className={styles.btn}
