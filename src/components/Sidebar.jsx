@@ -7,8 +7,9 @@ import Link from 'next/link';
 
 
 
-function Sidebar() {
 
+function Sidebar() {
+ 
 
     return (
         <aside id={styles.sidebar}>
@@ -20,7 +21,7 @@ function Sidebar() {
             <p className={styles.title}>Desenvolvedor fullstack</p>
             <SocialNetWorks />
             <InformationContainer />
-            <Link href='/curriculo/curriculo.pdf'
+            <Link href='/curriculo/curriculo2025.pdf'
                 target='_blank'
                
                 className={styles.btn}

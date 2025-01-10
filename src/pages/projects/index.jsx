@@ -158,13 +158,7 @@ export default function Projects() {
                             key={index}
                         >
                             <Caroussel images={item.imgProject} />
-                            <div className={styles.projectsInfo}>
-                                <h3>{item.name}</h3>
-                                <p>{item.description}</p>
-                                <span>Status <p>{item.status}</p></span>
-                                <span>Tecnologias usadas <p>{item.techUsed}</p></span>
-
-                                <div className={styles.btnContainer}>
+                            <div className={styles.btnContainer}>
                                     <button className={styles.btnPreview}
                                         disabled={true}
                                     >
@@ -179,7 +173,7 @@ export default function Projects() {
                                         <Link href={item.repoFrontUrl || ''}
                                             target='_blank'
 
-                                        >Repositório <br />Front</Link>
+                                        >Frontend</Link>
                                     </button>
                                     {
                                         item.repoBacktUrl !== '' && <button className={styles.btnPreview}
@@ -188,10 +182,18 @@ export default function Projects() {
                                             <Link href={item.repoBacktUrl || ''}
                                                 target='_blank'
 
-                                            >Repositório <br />back</Link>
+                                            >Backend</Link>
                                         </button>
                                     }
                                 </div>
+                            
+                            <div className={styles.projectsInfo}>
+                                <h3>{item.name}</h3>
+                                <p>{item.description}</p>
+                                <span>Status <p>{item.status}</p></span>
+                                <span>Tecnologias usadas <p>{item.techUsed}</p></span>
+
+                               
                             </div>
                         </div>
                     ))}
