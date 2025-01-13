@@ -1,6 +1,5 @@
 import MainContent from '../components/MainContent';
 import AboutContainer from '../components/AboutContainer';
-
 import Head from 'next/head';
 
 
