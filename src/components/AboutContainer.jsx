@@ -4,8 +4,7 @@ import Image from 'next/image'
 const AboutContainer = () => {
     return (
         <section className='aboutContainer' >
-
-
+            
             <h2>Sobre</h2>
             <Image
                 src={photo}
