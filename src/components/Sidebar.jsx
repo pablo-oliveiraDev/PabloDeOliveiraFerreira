@@ -6,10 +6,7 @@ import styles from '../styles/components/sidebar.module.sass';
 import Link from 'next/link';
 
 
-
-
 function Sidebar() {
- 
 
     return (
         <aside id={styles.sidebar}>
